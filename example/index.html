@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Simple Vue</title>
+  </head>
+  <body>
+    <div id="app">
+      <h2>{{msg}}</h2>
+      <button v-on:click="clickMe">click me!</button>
+      <div>{{deep.a}}</div>
+      <input v-model="deep.a">
+    </div>
+    <script src="./MyVue.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
