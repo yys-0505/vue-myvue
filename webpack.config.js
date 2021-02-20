@@ -11,7 +11,7 @@ module.exports = {
     new CleanWebpackPlugin()
   ],
   output: {
-    filename: 'MyVue.js',
+    filename: 'IVue.js',
     path: path.resolve(__dirname, 'lib'),
   },
 };

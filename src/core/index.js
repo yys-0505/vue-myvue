@@ -4,7 +4,7 @@ import Compiler from "./compile";
 import Watcher from "./observer/watcher"
 import { callHook } from "./instance/lifecycle"
 
-export default function MyVue(options) {
+export default function IVue(options) {
   let vm = this
   vm.$options = options
   vm.$watch = function (key, cb) {

@@ -1,3 +1,3 @@
-import MyVue from './core'
+import IVue from './core'
 
-window.MyVue = MyVue
+window.IVue = IVue

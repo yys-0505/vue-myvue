@@ -1,4 +1,4 @@
-let app = new MyVue({
+let app = new IVue({
   el: '#app',
   data: {
     msg: 'hello',
